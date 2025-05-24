@@ -1,0 +1,24 @@
+.productBannerContainer{
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.productBannerRow{
+    border: 4px solid #003366;
+    border-radius: 20px;
+}
+
+.productHeading{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+}
+
+.ptContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

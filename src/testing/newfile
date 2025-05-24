@@ -1,0 +1,113 @@
+.productBox{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    height: 100%;
+    position: relative;
+    
+}
+
+@property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.productBox:hover:after, .productBox:hover::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    padding: 3px;
+    background-image: conic-gradient(from var(--angle), transparent 50%,  var(--background-color));
+    border-radius: 20px;
+    width: 102%;
+    height: 102%;
+    z-index: -1;
+    animation: 5s spin linear infinite;
+    opacity: 0.4;
+}
+
+.productBox:hover::before{
+    filter: blur(1.9rem);
+    opacity: 1.8;
+}
+
+@keyframes spin {
+    from {
+        --angle: 0deg
+    }
+    to{
+        --angle: 360deg
+    }
+}
+
+.productImageContainer{
+    width: 100%;
+    height: auto;
+}
+.productImage{
+    width: 100%;
+    height: auto;
+}
+
+.productDetailInfoContainer{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100%;
+    
+    
+}
+
+.productDetailInfoContainer h4{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.productDetailInfoContainer p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: #000000;
+}
+
+@media (min-width: 576px) {
+    .productDetailInfoContainer h4{
+        font-size: 22px;
+    }
+    
+    .productDetailInfoContainer p{
+        font-size: 15px;
+        color: #000000;
+    }
+    
+}
+  
+  @media (min-width: 768px) {
+
+  }
+  
+  @media (min-width: 992px) {
+ 
+  }
+
+  @media (min-width: 1200px) {
+
+  }
+  
+  @media (min-width: 1400px) {
+    
+  }

@@ -1,0 +1,107 @@
+.splashBannerContainer{
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+
+.splashbannerrow{
+    background-color: #003366;
+    border-radius: 20px;
+    justify-content: center;
+    padding: 15px;
+    align-items: center;
+}
+
+.tpText{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    color: #003366;
+    text-align: justify;
+}
+
+.splashBannerTextContainer{
+    text-align: center;
+}
+
+.splashBannerTextContainer h3{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: white;
+}
+.splashBannerTextContainer p{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    color: #EEAA2C;
+}
+
+.navbarLogo{
+    width: 70px;
+    height: auto;
+}
+
+
+
+
+  @media (min-width: 576px) {
+    .splashBannerTextContainer{
+        width: 100%;
+        text-align: left;
+    }
+    .splashBannerTextContainer h3{
+        font-size: 26px;
+    }
+    .splashBannerTextContainer p{
+        font-size: 13px;
+    }
+    .tpText{
+        font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .splashBannerTextContainer h3{
+        font-size: 28px;
+    }
+    .splashBannerTextContainer p{
+        font-size: 15px;
+    }
+    .tpText{
+        font-size: 16px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .tpText{
+        font-size: 20px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .tpText{
+        font-size: 26px;
+    }
+    .splashBannerTextContainer h3{
+        font-size: 32px;
+    }
+    .splashBannerTextContainer p{
+        font-size: 20px;
+    }
+
+  }
+  
+  @media (min-width: 1400px) {
+    .splashBannerTextContainer h3{
+        font-size: 32px;
+    }
+    .splashBannerTextContainer p{
+        font-size: 20px;
+    }
+  }

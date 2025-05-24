@@ -1,0 +1,115 @@
+.aboutBannerContainer{
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+.aboutbannerrow{
+    border: 4px solid #EEAA2C;
+    border-radius: 20px;
+}
+
+.aboutUsCol1{
+    border-bottom: 4px solid #EEAA2C;
+} 
+
+.aboutUsCol{
+    border-bottom: 4px solid #EEAA2C;
+}
+
+.aboutUsCol:last-child{
+    border-bottom: 0;
+}
+
+.aboutUsCol1 h3{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    color: black;
+}
+
+.aboutUsCol1 p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: black;
+    text-align: justify;
+}
+
+.aboutUsCol h3{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    color: black;
+}
+
+.aboutUsCol p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: black;
+    text-align: justify;
+}
+
+@media (min-width: 576px) {
+
+    .aboutUsCol1{
+        border-right: 4px solid #EEAA2C;
+        border-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } 
+
+    .aboutUsCol1 h3{
+        font-size: 26px;
+    }
+    
+    .aboutUsCol1 p{
+        font-size: 13px;
+    }
+
+    .aboutUsCol h3{
+        font-size: 26px;
+    }
+    
+    .aboutUsCol p{
+        font-size: 13px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .aboutUsCol1 h3{
+        font-size: 26px;
+    }
+    .aboutUsCol1 p{
+        font-size: 15px;
+    }
+
+    .aboutUsCol h3{
+        font-size: 26px;
+    }
+    
+    .aboutUsCol p{
+        font-size: 15px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+   
+  }
+
+  @media (min-width: 1200px) {
+      
+  }
+  
+  @media (min-width: 1400px) {
+    
+  }
+
+

@@ -1,0 +1,56 @@
+.beniftBannerContainer{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.benifitbannerHeading{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    color: black;
+}
+
+
+ 
+@media (min-width: 370px) {
+  .benifitbannerHeading{
+    font-size: 26px;
+   }
+ }
+ 
+
+
+
+
+  @media (min-width: 576px) {
+    .benifitbannerHeading{
+        font-size: 24px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .benifitbannerHeading{
+        font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .benifitbannerHeading{
+        font-size: 20px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .benifitbannerHeading{
+        font-size: 24px;
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    .benifitbannerHeading{
+        font-size: 26px;
+    }
+  }

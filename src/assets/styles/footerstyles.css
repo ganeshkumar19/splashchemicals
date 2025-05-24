@@ -1,0 +1,91 @@
+.footerBannerContainer{
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+.footerImageCol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+.footerImageContainer{
+    width: 140px;
+    height: auto;
+}
+
+.footerTextContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLogo{
+    width: 100%;
+    height: auto;
+}
+
+.footerTextContainer p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 13px;
+    color: black; 
+}
+
+@media (min-width: 370px) {
+    .footerTextContainer p{
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 16px;
+        color: black; 
+    }
+}
+
+
+@media (min-width: 576px) {
+    .footerTextContainer p{
+        font-size: 16px;
+    }
+}
+  
+@media (min-width: 768px) {
+    .footerImageCol{
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 0;
+    }
+    .footerTextContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+     
+    }
+    .footerTextContainer p{
+        font-size: 12px;
+    }
+
+}
+  
+  @media (min-width: 992px) {
+    .footerTextContainer p{
+        font-size: 14px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .footerTextContainer p{
+        font-size: 16px;
+    }
+  }
+  
+  @media (min-width: 1400px) {
+ 
+  }

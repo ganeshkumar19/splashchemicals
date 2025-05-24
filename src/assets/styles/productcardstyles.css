@@ -1,0 +1,101 @@
+.productBox{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+.productImageContainer{
+    width: 100%;
+    height: auto;
+}
+.productImage{
+    width: 100%;
+    height: auto;
+}
+
+.productDetailInfoContainer{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100%;
+    
+    
+}
+
+.productDetailInfoContainer h4{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.productDetailInfoContainer p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: #000000;
+}
+
+.peButton{
+    background-color: #EEAA2C;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.3s ease;
+}
+
+.peButton:hover {
+    background-color: var(--button-hover-color, #EEAA2C);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.55) 5px 5px 15px;
+
+     /* Fallback to default if variable not set */
+}
+
+@media (min-width: 576px) {
+    .productDetailInfoContainer h4{
+        font-size: 22px;
+    }
+    
+    .productDetailInfoContainer p{
+        font-size: 15px;
+        color: #000000;
+    }
+    
+}
+  
+  @media (min-width: 768px) {
+
+  }
+  
+  @media (min-width: 992px) {
+ 
+  }
+
+  @media (min-width: 1200px) {
+
+  }
+  
+  @media (min-width: 1400px) {
+    
+  }

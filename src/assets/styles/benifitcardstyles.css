@@ -1,0 +1,117 @@
+
+.benifitBox{
+    background-color:  #EEAA2C;
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    height: 100%;
+    position: relative;
+}
+
+
+@property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.benifitBox:hover:after, .benifitBox:hover::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    padding: 3px;
+    background-image: conic-gradient(from var(--angle), transparent 70%,  #8B4513);
+    border-radius: 20px;
+    width: 102%;
+    height: 104%;
+    z-index: -1;
+    animation: 3s spin linear infinite;
+}
+
+.benifitBox:hover::before{
+    filter: blur(0.5rem);
+    opacity: 0.8;
+}
+
+@keyframes spin {
+    from {
+        --angle: 0deg
+    }
+    to{
+        --angle: 360deg
+    }
+}
+
+  
+
+.benfitTextContainer{
+   width: 100%;
+}
+
+.benfitTextContainer h3{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.benfitTextContainer p{
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    color: white;
+}
+
+
+
+
+ 
+@media (min-width: 370px) {
+    .benfitTextContainer p{
+        font-size: 17px;
+    }
+   }
+   
+
+
+  @media (min-width: 576px) {
+    .benfitTextContainer h3{
+        font-size: 23px;
+    }
+    .benfitTextContainer p{
+        font-size: 16px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .benfitTextContainer h3{
+        font-size: 22px;
+    }
+    .benfitTextContainer p{
+        font-size: 16px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .benfitTextContainer h3{
+        font-size: 24px;
+    }
+    .benfitTextContainer p{
+        font-size: 15px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+  }
+  
+  @media (min-width: 1400px) {
+ 
+  }
